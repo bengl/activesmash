@@ -1,0 +1,26 @@
+{
+  "name": "activesmash",
+  "version": "1.0.0",
+  "description": "A higher level ActiveRecord-style interface for MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bengl/activesmash.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengl/activesmash/issues"
+  },
+  "homepage": "https://github.com/bengl/activesmash",
+  "devDependencies": {
+    "nedb": "^1.0.0",
+    "mongosmash": "^1.0.0"
+  }
+}
