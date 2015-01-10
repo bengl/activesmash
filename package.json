@@ -4,7 +4,7 @@
   "description": "A higher level ActiveRecord-style interface for MongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test | tap-prettify -"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/bengl/activesmash",
   "devDependencies": {
+    "mongosmash": "^1.0.0",
     "nedb": "^1.0.0",
-    "mongosmash": "^1.0.0"
+    "tap": "^0.4.13",
+    "tap-prettify": "0.0.2"
   }
 }
